@@ -1,1 +1,1 @@
-# NLW_Project_Product_Code
+Este repositório faz parte de um Projeto da plataforma NLW, que contempla a criação de um arquivo Python usando a biblioteca 'Flask', o programa 'Postman' importando várias bibliotecas e usando vários comandos do GIT.
