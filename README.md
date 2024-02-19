@@ -1,6 +1,3 @@
-Claro, aqui está o Readme.md atualizado com todas as informações de comandos incluídas:
-
----
 
 # Projeto de Criação de Tag com Código de Barras em PNG
 
@@ -46,7 +43,3 @@ python run.py
 pytest
 pytest -s -v
 ```
-
----
-
-Esse texto fornecerá uma visão geral do seu projeto, incluindo informações sobre as bibliotecas instaladas e os comandos necessários para configurar e executar o projeto.
