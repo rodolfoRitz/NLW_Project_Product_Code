@@ -1,24 +1,52 @@
-Este repositório contempla todo o projeto para a criação de uma tag com o código de barras em '.png', pela plataforma NLW.
-Utilizando validação em 'Pytest', a estrutura de código do 'Pylint', tudo dentro de um ambiente virtual.
+Claro, aqui está o Readme.md atualizado com todas as informações de comandos incluídas:
 
-Foram instaladas as bibliotecas: 
-Flask, cerberus, pillow, python-barcode, pylint, pre-commit, virtualenv.
+---
 
-O programa 'Postman' foi instalado para simular a execução do programa, realizando a requisição POST.
+# Projeto de Criação de Tag com Código de Barras em PNG
 
-Comandos utilizados no terminal do 'Git Bash':
+Este repositório contém todo o código e recursos necessários para o projeto de criação de uma tag com código de barras em formato PNG, desenvolvido como parte da Next Level Week (NLW). O projeto utiliza validação com Pytest, estrutura de código do Pylint, e é executado em um ambiente virtual.
+
+## Bibliotecas Instaladas
+
+As seguintes bibliotecas foram instaladas para o desenvolvimento do projeto:
+
+- Flask: Para o desenvolvimento de aplicativos web em Python.
+- Cerberus: Para validação de dados.
+- Pillow: Para manipulação de imagens.
+- Python-barcode: Para geração de códigos de barras.
+- Pylint: Para análise de código e garantia de qualidade.
+- Pre-commit: Para execução de tarefas automáticas antes do commit.
+- Virtualenv: Para criação de ambientes virtuais.
+
+## Ferramentas Utilizadas
+
+- **Postman**: Instalado para simular a execução do programa, realizando requisições POST.
+
+## Comandos Utilizados no Git Bash
+
+```bash
 source .venv/Scripts/activate
 git status
-git add.
+git add .
 git commit -m 'feat: Descrição do commit'
 python run.py
 pip3 freeze > requirements.txt
 pre-commit install
+```
 
-Comandos utilizados no terminal do VScode(powershell):
+## Comandos Utilizados no Terminal do VSCode (PowerShell)
+
+```powershell
 .venv\Scripts\activate
-Caso necessário: ( Set-ExecutionPolicy Unrestricted -Force, Set-ExecutionPolicy  -Scope CurrentUser  -ExecutionPolicy RemoteSigned )
+# Caso necessário:
+# Set-ExecutionPolicy Unrestricted -Force
+# Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 python run.py
 .venv\Scripts\pip3 freeze > requirements.txt
 pytest
 pytest -s -v
+```
+
+---
+
+Esse texto fornecerá uma visão geral do seu projeto, incluindo informações sobre as bibliotecas instaladas e os comandos necessários para configurar e executar o projeto.
